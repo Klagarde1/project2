@@ -69,13 +69,15 @@ p {
 	grid-column:span 1;
 	border:1px black solid;
 	font-family:font-family:Blippo, fantasy;
-	font-size:15px;
+	font-size:30px;
 	text-align:center;
+	height:100px;
+	color:black;
 }
 .menu {
 	display: grid;
 	width:100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: white;
 }
 h3{
